@@ -33,20 +33,18 @@ This repository contains the official implementation of three variants of **CspM
 
 ```bash
 .
-├── main.py                   # Training & evaluation (version 1)
-├── main_1.py                 # Training & evaluation (version 2)
+!├── main.py                   # Training & evaluation (version 1)
+!├── main_1.py                 # Training & evaluation (version 2)
 ├── config.py / config_1.py / config_2.py   # Model specifications
 ├── model.py / model_1.py     # Model builders (for each version)
 ├── Layer/                    # Custom layers (CSP block, MBConv, etc.)
 ├── DataGenerator.py          # Data loading and preprocessing
 ├── Flops.py                  # Model complexity (FLOPs) calculation
 ├── notebooks/                # Jupyter Notebooks for training/testing/visualization
-│   ├── 00_Data_load_split.ipynb
 │   ├── 01_train.ipynb, 01_train_1.ipynb, 01_train_2.ipynb
 │   ├── 02_test_1.ipynb, 102_test.ipynb
-│   ├── 03_plt.ipynb, 04_plt_loss.ipynb
-├── 0-MTAP-D-24-01825-R1.pdf  # Official revised paper
-└── README.md
+!├── 0-MTAP-D-24-01825-R1.pdf  # Official revised paper
+!└── README.md
 ```
 
 ---
@@ -63,10 +61,13 @@ pip install -r requirements.txt
 
 ```bash
 # For version 1
-python main.py
+01_train_v1.ipynb
 
 # For version 2 (dual-attention)
-python main_1.py
+01_train_v2.ipynb
+
+# For version 3 (dual-attention)
+01_train_v3.ipynb
 ```
 
 ---
@@ -85,16 +86,14 @@ python main_1.py
 
 | Notebook | Purpose |
 |----------|---------|
-| `00_Data_load_split.ipynb` | Load and preprocess CIFAR or custom datasets |
 | `01_train*.ipynb` | Train models (v1/v2/v3) |
 | `02_test_1.ipynb`, `102_test.ipynb` | Test trained models |
-| `03_plt.ipynb`, `04_plt_loss.ipynb` | Visualize training curves |
 
 ---
 
 ## 💡 Dataset Support
 
-- `cifar10`, `cifar100`
+- `cifar10`, `cifar100`,`bird100`, `bird365`
 - Folder format: `Dataset/train`, `Dataset/valid`, `Dataset/test` with subfolders per class
 - https://mega.nz/folder/3JZRSY7C#sS-uAwWTo7msAtV2235alw
 
