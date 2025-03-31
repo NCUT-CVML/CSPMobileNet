@@ -96,6 +96,7 @@ python main_1.py
 
 - `cifar10`, `cifar100`
 - Folder format: `Dataset/train`, `Dataset/valid`, `Dataset/test` with subfolders per class
+- https://mega.nz/folder/3JZRSY7C#sS-uAwWTo7msAtV2235alw
 
 ---
 
