@@ -1,31 +1,6 @@
-# 🧠 CspMobileNet - Lightweight CNN Architecture with Attention for Resource-Constrained Devices
+# 🧠 CSPMobileNet - Lightweight CNN Architecture with Attention for Resource-Constrained Devices
 
-This repository contains the official implementation of three variants of **CspMobileNet**, a lightweight convolutional neural network integrating **CSPNet**, **depthwise separable convolutions**, and lightweight attention mechanisms (SE, CBAM, CA). It is optimized for applications in resource-limited environments such as edge devices or embedded systems.
-
----
-
-## 📄 Associated Publication
-
-> **An Efficient Light-weight Convolutional Neural Network Based on Split-and-Merge Strategy and Inverted Residual Structure for Resource-constrained Devices**  
-> Siou-Min Lin, Kuan-Ting Lai, Guo-Shiang Lin, Chuan-Wang Chang, Ku-Yaw Chang  
-> National Chin-Yi University of Technology, Taiwan
-
-📰 **Journal**: Multimedia Tools and Applications (Springer)  
-ℹ️ **狀態**：Revised Submission  
-📄 [Download PDF](./0-MTAP-D-24-01825-R1.pdf)
-
-
-
-### 🏗️ Citation (BibTeX)
-```bibtex
-@article{lin2024cspmobilenet,
-  title={An Efficient Light-weight Convolutional Neural Network Based on Split-and-Merge Strategy and Inverted Residual Structure for Resource-constrained Devices},
-  author={Lin, Siou-Min and Lai, Kuan-Ting and Lin, Guo-Shiang and Chang, Chuan-Wang and Chang, Ku-Yaw},
-  journal={Multimedia Tools and Applications},
-  year={2024},
-  publisher={Springer}
-}
-```
+This repository contains the official implementation of three variants of **CSPMobileNet**, a lightweight convolutional neural network integrating **CSPNet**, **depthwise separable convolutions**, and lightweight attention mechanisms (SE, CBAM, CA).
 
 ---
 
@@ -72,16 +47,6 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Supported Features
-
-- ✅ Multiple attention types: SE, CBAM, Coordinate Attention (CA)
-- ✅ Cyclical Learning Rate (CLR) scheduling
-- ✅ Transfer learning support (layer freezing, fine-tuning)
-- ✅ Customizable specifications via config.py
-- ✅ FLOPs calculation tool for model complexity analysis
-
----
-
 ## 📊 Jupyter Notebook Guide
 
 | Notebook | Purpose |
@@ -91,7 +56,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💡 Dataset Support
+## 💡 Datasets
 
 - `cifar10`, `cifar100`,`bird100`, `bird365`
 - Folder format: `Dataset/train`, `Dataset/valid`, `Dataset/test` with subfolders per class
@@ -99,8 +64,3 @@ pip install -r requirements.txt
 
 ---
 
-## 📬 Contact
-
-If you have questions or would like to contribute, please open an issue or contact the authors via email(gslin@gm.ncut.edu.tw).
-
----
