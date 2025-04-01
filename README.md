@@ -101,6 +101,6 @@ pip install -r requirements.txt
 
 ## 📬 Contact
 
-If you have questions or would like to contribute, please open an issue or contact the authors via email.
+If you have questions or would like to contribute, please open an issue or contact the authors via email(gslin@gm.ncut.edu.tw).
 
 ---
