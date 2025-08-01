@@ -2,6 +2,23 @@
 
 This repository contains the official implementation of three variants of **CSPMobileNet**, a lightweight convolutional neural network integrating **CSPNet**, **depthwise separable convolutions**, and lightweight attention mechanisms (SE, CBAM, CA).
 
+## 📝 Paper Information
+
+**Title:** An Efficient Light-weight Convolutional Neural Network Based on Split-and-Merge Strategy and Inverted Residual Structure for Resource-constrained Devices  
+**Authors:** Siou-Min Lin, Kuan-Ting Lai, Guo-Shiang Lin*, Chuan-Wang Chang, Ku-Yaw Chang  
+**Journal:** Multimedia Tools and Applications (MTAP), 2025 (Accepted)  
+**Official Paper:** [0-MTAP-D-24-01825-R1.pdf](./0-MTAP-D-24-01825-R1.pdf)
+
+**Citation:**
+```bibtex
+@article{Lin2025CSPMobileNet,
+  title={An Efficient Light-weight Convolutional Neural Network Based on Split-and-Merge Strategy and Inverted Residual Structure for Resource-constrained Devices},
+  author={Siou-Min Lin and Kuan-Ting Lai and Guo-Shiang Lin and Chuan-Wang Chang and Ku-Yaw Chang},
+  journal={Multimedia Tools and Applications},
+  year={2025}
+}
+```
+
 ---
 
 ## 📦 Project Structure
